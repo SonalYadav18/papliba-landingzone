@@ -28,7 +28,7 @@ terraform {
 
 # Create the very first management group
 resource "azurerm_management_group" "papliba_mg" {
-    name = "papliba"
+    name = "papliba-test"
     display_name = "papliba_mg"
     //name = "papliba-test" 
   
