@@ -18,5 +18,6 @@ provider "azurerm" {
 # Create the very first management group
 resource "azurerm_management_group" "papliba_mg" {
     display_name = "papliba_mg"
+    name = "papliba-test" 
   
 }
