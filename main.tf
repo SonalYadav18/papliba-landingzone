@@ -30,5 +30,6 @@ terraform {
 resource "azurerm_management_group" "papliba_mg" {
     name = "papliba"
     display_name = "papliba_mg"
+    name = "papliba-test" 
   
 }
